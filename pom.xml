@@ -40,6 +40,9 @@
 
     <!-- Child Modules -->
     <modules>
+        <module>common-lib</module>
+        <module>Cloud</module>
+        <module>Services</module>
         <!-- Uncomment after creating these modules -->
 
         <!--
