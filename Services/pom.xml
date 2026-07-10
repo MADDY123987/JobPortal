@@ -18,9 +18,7 @@
     <description>BusinessService Module</description>
 
     <modules>
-        <!--        <module>Eureka_Server</module>-->
-        <!--        <module>Config_Server</module>-->
-        <!--        <module>Api_Gateway</module>-->
+        <module>User_Service</module>
     </modules>
 
 
