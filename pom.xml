@@ -74,13 +74,11 @@
             <!-- Common Module -->
             <!-- Uncomment AFTER creating the module -->
 
-            <!--
             <dependency>
                 <groupId>com.AIJobPortal</groupId>
                 <artifactId>job-portal-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            -->
 
             <!-- JWT -->
 

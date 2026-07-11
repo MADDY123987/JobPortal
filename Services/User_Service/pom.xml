@@ -6,15 +6,19 @@
 		<groupId>com.AIJobPortal</groupId>
 		<artifactId>job-portal-service</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>User_Service</artifactId>
+	<artifactId>User-Service</artifactId>
 
 	<name>job-portal-user-service</name>
 	<description>User Service-Auth,Profile,and User Management for Job Portal</description>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.AIJobPortal</groupId>
+			<artifactId>job-portal-common</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
