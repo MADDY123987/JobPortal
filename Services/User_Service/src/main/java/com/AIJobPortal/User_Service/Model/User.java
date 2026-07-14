@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long
+    private Long id;
 
     @NotBlank(message = "fullName is mandatory")
     private String fullName;
