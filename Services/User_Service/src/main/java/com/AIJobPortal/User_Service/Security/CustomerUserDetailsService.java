@@ -15,7 +15,6 @@ import java.util.Collection;
 import java.util.Collections;
 
 @RequiredArgsConstructor
-@Service
 public class CustomerUserDetailsService implements UserDetailsService {
 
 
