@@ -3,6 +3,10 @@ package com.AIJobPortal.User_Service.mapper;
 import com.AIJobPortal.User_Service.Model.User;
 import com.AIJobPortal.job.dto.response.UserResponse;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class UserMapper {
 
     public static UserResponse toDTO(User user){
@@ -18,5 +22,9 @@ public class UserMapper {
         dto.setCreatedAt(user.getCreatedAt());
 
         return dto;
+    }
+
+    public static List<UserResponse> toDTOList(List<User> users){
+        return users.stream().map(UserMapper::toDTO).collect(Collectors.toList());
     }
 }
