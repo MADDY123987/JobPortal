@@ -1,3 +1,21 @@
+server:
+  port: 5002
 spring:
   application:
     name: Company-Service
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/job_portal_company
+    username: postgres
+    password: Mad20041
+    driver-class-name: org.postgresql.Driver
