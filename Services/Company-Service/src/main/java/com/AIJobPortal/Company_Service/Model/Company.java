@@ -50,7 +50,7 @@ public class Company {
     @Enumerated(EnumType.STRING)
     private IndustryType industryType;
 
-    private CompanyStatus companyStatus;
+    private CompanyStatus status;
 
     @Column(unique = true,nullable = false)
     private String registrationNumber;
